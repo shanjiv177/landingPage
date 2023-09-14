@@ -104,13 +104,13 @@ a:link{
     margin: auto;
     padding: 1rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .example{
     display: flex;
     flex-direction: column;
     margin: auto;
     min-height: 300px;
-    flex-shrink: 1;
 }
 
 .example-img, .example-text{
